@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void readNumbers(){
+    private void readNumbers(){
         EditText number1EditText = findViewById(R.id.number1Text);
         EditText number2EditText = findViewById(R.id.number2Text);
 
