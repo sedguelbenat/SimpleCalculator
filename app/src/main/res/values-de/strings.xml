@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Einfacher Rechner</string>
+    <string name="number1">Zahl 1</string>
+    <string name="number2">Zahl 2</string>
+    <string name="sumButton">Summe berechnen</string>
+    <string name="subButton">Differenz berechnen</string>
+    <string name="mulButton">Produkt berechnen</string>
+    <string name="divButton">Quotient berechnen</string>
+</resources>

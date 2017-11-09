@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="number1">Number 1</string>
+    <string name="number2">Number 2</string>
+    <string name="sumButton">Calculate Sum</string>
+    <string name="subButton">Calculate Difference</string>
+    <string name="mulButton">Calculate Product</string>
+    <string name="divButton">Calculate Quotient</string>
+</resources>

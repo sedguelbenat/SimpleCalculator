@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.sedar.simplecalculator.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number1"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/number1Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number2"/>
+
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/number2Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/calculateSumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sumButton"/>
+
+    <Button
+        android:id="@+id/calculateDifferenceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subButton"/>
+
+    <Button
+        android:id="@+id/calculateProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mulButton"/>
+
+    <Button
+        android:id="@+id/calculateQuotientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divButton"/>
+
+</LinearLayout>
