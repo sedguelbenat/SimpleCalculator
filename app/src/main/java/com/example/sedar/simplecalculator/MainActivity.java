@@ -68,22 +68,22 @@ public class MainActivity extends AppCompatActivity {
         number2 = Double.parseDouble(number2EditText.getText().toString());
     }
 
-    public void calculateSum(){
+    private void calculateSum(){
         Double sum = number1 + number2;
         Toast.makeText(getApplicationContext(),sum + "",Toast.LENGTH_LONG).show();
     }
 
-    public void calculateDifference(){
+    private void calculateDifference(){
         Double difference = number1 - number2;
         Toast.makeText(getApplicationContext(),difference + "",Toast.LENGTH_LONG).show();
     }
 
-    public void calculateProduct(){
+    private void calculateProduct(){
         Double product = number1 * number2;
         Toast.makeText(getApplicationContext(),product + "",Toast.LENGTH_LONG).show();
     }
 
-    public void calculateQuotient(){
+    private void calculateQuotient(){
         Double quotient = number1 / number2;
         Toast.makeText(getApplicationContext(),quotient + "",Toast.LENGTH_LONG).show();
     }
